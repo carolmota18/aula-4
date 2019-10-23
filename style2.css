@@ -1,0 +1,38 @@
+*{
+	text-decoration: none;
+	list-style: none ;
+}
+
+@media(min-width: 425px) {
+	nav{
+		display:none;
+		flex-direction:column;
+		align-items:center;
+		padding: 20px;
+	}
+
+ 	a{
+	 	font-size: 50px;
+	 	line-height: 100px;
+	 	padding-top: 25px; 
+ 	}
+ 	a:hover{
+ 		color: #000;
+ 		transform: scale(1.5);
+ 	}
+
+	span{
+		font-size:50px;
+		float: left;
+	}
+
+	span, #close-hanburguer{
+		font-size: 100px;
+		display: none;
+	}	
+	#menu-hamburguer{
+		font-size: 50px;
+	}
+}
+	
+	
